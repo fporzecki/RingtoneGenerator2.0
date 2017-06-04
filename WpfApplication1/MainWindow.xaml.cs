@@ -82,8 +82,12 @@ namespace WpfApplication1
                 _mediaPlayer.Close();
                 playerButtonsState(false);
                 if (File.Exists(filename + ".wav"))
+                {
+                    File.SetAttributes(filename + ".wav", 
+                        FileAttributes.Normal);
                     File.Delete(filename + ".wav");
-
+                }
+                File.SetAttributes(filename, FileAttributes.Normal);
                 File.Delete(filename);
             }
             else return;
