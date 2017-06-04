@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Media;
-using System.Windows.Media.Animation;
 using System.Windows.Threading;
 using Microsoft.VisualBasic;
 using System.Windows.Controls;
@@ -169,7 +168,7 @@ namespace WpfApplication1
             MessageBox.Show("To create your own ringtone type a note score"
                 + " into the designated text box, then give it a name.\n"
                 + "It's considered good practice for the name to end with .wav"
-                + " but if you don't give it this ending, then the program"
+                + " but if you don't give it this extension, then the program"
                 + " will do it for you.", "Help");
         }
 

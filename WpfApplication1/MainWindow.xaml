@@ -141,7 +141,7 @@
                Grid.ColumnSpan="2" />
         <Menu x:Name="menu"
               HorizontalAlignment="Left"
-              Height="33"
+              Height="28"
               VerticalAlignment="Top"
               Width="634"
               Grid.ColumnSpan="3">
